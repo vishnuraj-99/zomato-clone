@@ -1,0 +1,249 @@
+/*font size: normal-3.8,*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.section-header-container {
+  height: 75vh;
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-size: cover;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.logo-img {
+  width: 32%;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1-heading {
+  color: aliceblue;
+}
+.main-heading {
+  font-size: 3.8rem;
+}
+.search-place-food {
+  display: flex;
+  background-color: aqua;
+  width: 64%;
+}
+.inp {
+  width: 100%;
+}
+/*second section*/
+.cards {
+  display: grid;
+  grid-template-columns: 50%;
+}
+
+.card1 {
+  margin-top: 3.2rem;
+
+  border-radius: 1.2rem;
+  overflow: hidden;
+  border: 0.1px solid rgb(203, 201, 201);
+  transition: all 0.3s;
+}
+.card1:hover {
+  transform: scale(1.05);
+}
+.card-img img {
+  max-width: 100%;
+}
+.card-img {
+  height: 30vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.8rem 1.8rem;
+}
+.card-heading-main {
+  font-size: 2rem;
+  font-weight: 450;
+}
+.card-heading-sub {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+/*third section*/
+.section-3-heading {
+  color: black;
+}
+.place-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.1px solid rgb(203, 201, 201);
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.9rem;
+}
+.place-box:hover {
+  box-shadow: 0 2.5px 5px 0 rgb(228, 227, 227);
+}
+.place-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+}
+.place {
+  font-size: 2rem;
+}
+
+.number {
+  font-size: 1.6rem;
+}
+.icon-3 {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+/*section 4*/
+.get-app-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.app-img {
+  width: 70%;
+}
+.get-app-image {
+  padding: 9.8rem 0;
+  padding-left: 10.8rem;
+}
+.get-app-text {
+  width: 50%;
+  align-self: center;
+}
+.get-app-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+}
+.get-app-desc {
+  font-size: 1.6rem;
+  color: rgb(54, 54, 54);
+  font-weight: 300;
+}
+.email-phone {
+  display: flex;
+
+  gap: 2.2rem;
+}
+.selection-container {
+  display: flex;
+  align-items: center;
+}
+/*secction 4*/
+.opt-near-me-container-outer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.options-near-me-container-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.opt-near-me-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.opt-near-me-item {
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid rgb(203, 201, 201);
+  padding: 2rem 3rem;
+  border-radius: 9px;
+}
+.opt-near-me-item:hover {
+  cursor: pointer;
+}
+
+.item-title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.item-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.opt-near-me-heading p {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(54, 54, 54);
+}
+/*footer logo section*/
+
+.country-lang-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 1rem 1.2rem;
+  border: 0.5px solid rgb(174, 174, 174);
+  border-radius: 0.9rem;
+}
+.country-lang-box p {
+  font-size: 1.6rem;
+}
+.glob-flag-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.country-lang-selection-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-self: right;
+}
+.footer-logo-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.4rem 3rem;
+}
+.footer-logo-div img {
+  width: 45%;
+}
+/*footer links */
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 0.3rem;
+  justify-content: center;
+}
+.footer-link-heading {
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+.footer-link-links {
+  list-style: none;
+}
+.lnk {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(105, 105, 105);
+}
